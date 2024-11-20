@@ -1,0 +1,2 @@
+# FizzBuzzDamenaSample
+ 決してマネしてはいけないFizzBuzz
