@@ -1,5 +1,6 @@
 # FizzBuzzDamenaSample
  決してマネしてはいけないFizzBuzz回答
+ 
  ※Visual Studio 2022 (言語C#)で作成しています。
 
 # ライセンス
