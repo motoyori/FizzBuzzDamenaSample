@@ -1,50 +1,41 @@
-# FizzBuzzDamenaSample
- 決してマネしてはいけないFizzBuzz回答
- 
- ※Visual Studio 2022 (言語C#)で作成しています。
+# Overview of 'FizzBuzzDamenaSample'
+A deliberately bad solution to the FizzBuzz problem.
 
-# ライセンス
- ライセンスは特になく、好きに使ってもらっていいですが、
- 
- FizzBuzz問題を(今頃出すところがあるのかは謎ですが)
- 
- プログラム初心者で研修・学習中の人などは、
- 
- これを見て「これでFizzBuzzが解けるんだ！」と考えて
- 
- このソースを提出しないように！
- 
- （どこかから取ってきただろうことが丸わかりです）
+Created using Visual Studio 2022 (C#).
 
-# 目的(綺麗事)
- プログラムって正解はなく作り方は自由なんだなと感じてもらえれば幸いです。
+# License
+No specific license. Feel free to use it as you wish.
 
-# issue依頼
-　他にもこんな「ダメなFizzBuzz問題のソース」を思いついたらissueに投げてください。
+However, please don't use this as a reference for solving the FizzBuzz problem
+ (I wonder if there's anyone who's still trying to solve it now).
 
-## 条件
- ・C#のソースであること(このプログラムがそうなので)
- 
- ※わかる範囲で私が書き換えれそうなら頑張ります。
+Especially for programming beginners who are under training or studying, please don't think,
+ "So this is how to solve FizzBuzz!" and not submit this source code as your own!
 
- ・あんまり長くない事。(無意味に長いと飽きる)
+(Experts can easily tell that you've copied it from somewhere.)
 
- ・ちゃんとFizzBuzz問題として解けること
+# Purpose (a noble lie)
+I hope you can feel that there is no single correct answer in programming, and that you can create programs freely.
 
- ・でも初心者がそのままコピペして「できた！」と扱うには厳しいこと
+Issue Requests
+If you can think of other "bad FizzBuzz source codes," please submit an issue.
 
- ・ダメなソースでもちょっとぐらいは知識の足しになりそうな気がすればなおよい。（これは必須ではない）
- 
-## FizzBuzz問題とは
+## Conditions
+- Must be C# source code (since this program is written in C#).
+- Not too long. (If it's unnecessarily long, it will bore the reader.)
+- Must correctly solve the FizzBuzz problem.
+- The source code should be difficult for beginners to copy-paste and say, "I did it!"
+- It would be even better if the bad source code could still be a little helpful for learning (but this is not mandatory).
 
- 「1から任意の数(最大MaxInt/一旦50迄)の数字を表示するときに、
-- 3の倍数の時には「Fizz」を
-- 5の倍数の時には「Buzz」を
-- 3と5の倍数の場合は「FizzBuzz」を
-　それぞれ数字の代わりに表示する。
+## What is the FizzBuzz problem?
 
-またそれぞれの値の間にはカンマ(,)で区切り改行は行わないものとする」
+When displaying numbers from 1 to an arbitrary number (maximum MaxInt / temporarily up to 50),
 
-出力例：
+- If the number is a multiple of 3, display "Fizz" instead of the number.
+- If the number is a multiple of 5, display "Buzz" instead of the number.
+- If the number is a multiple of both 3 and 5, display "FizzBuzz" instead of the number.   
+Also, each value should be separated by a comma (,) and no newline should be added.
+
+Output example:
 
 1,2,Fizz,4,Buzz,Fizz,7,8,Fizz,FizzBuzz,11,Fizz,13,14,FizzBuzz,16...
